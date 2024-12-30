@@ -1,4 +1,4 @@
-A very basic email agent that schedules google meets according to the available appointments.
+A very basic AI agent that schedules google meets according to the available appointments.
 
 To build and run the container, follow these steps:
 1. Build the Docker image:
