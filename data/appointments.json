@@ -1,0 +1,12 @@
+{
+    "available_slots": [
+      {
+        "date": "2024-12-31",
+        "slots": [
+          {"start": "09:00", "end": "10:00", "available": true},
+          {"start": "10:00", "end": "11:00", "available": true},
+          {"start": "11:00", "end": "12:00", "available": false}
+        ]
+      }
+    ]
+}

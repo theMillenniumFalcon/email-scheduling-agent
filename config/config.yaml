@@ -1,0 +1,14 @@
+email:
+  imap_server: imap.gmail.com
+  smtp_server: smtp.gmail.com
+  smtp_port: 587
+  email_address: ${EMAIL_ADDRESS}
+  password: ${EMAIL_PASSWORD}
+
+openai:
+  api_key: ${OPENAI_API_KEY}
+  model: gpt-3.5-turbo
+
+google:
+  credentials_file: credentials.json
+  token_file: token.json
