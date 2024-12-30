@@ -3,7 +3,7 @@ A very basic AI agent that schedules google meets according to the available app
 To build and run the container, follow these steps:
 1. Build the Docker image:
     ```bash
-    docker build -t email-scheduling-agent .
+    docker build -t [your_dockerhub_username]/email-scheduling-agent .
     ```
 
 2. Prepare your configuration: Create a directory to store your configuration files:
@@ -26,5 +26,5 @@ To build and run the container, follow these steps:
     -e EMAIL_ADDRESS="your-email@example.com" \
     -e EMAIL_PASSWORD="your-email-password" \
     -e OPENAI_API_KEY="your-openai-api-key" \
-    nishank02/email-scheduling-agent
+    [your_dockerhub_username]/email-scheduling-agent
     ```
