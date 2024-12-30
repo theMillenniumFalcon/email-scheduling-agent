@@ -11,6 +11,7 @@ class EmailProcessor:
         self.model = config['openai']['model']
         
     def process_email(self, email_content):
+        """Process email content using OpenAI to understand intent."""
         system_prompt = """
         You are an AI assistant that analyzes emails requesting appointments.
         Extract the following information:
